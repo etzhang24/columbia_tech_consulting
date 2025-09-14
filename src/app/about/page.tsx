@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
@@ -13,10 +13,10 @@ export default function Home() {
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-white/80 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
                 Home
               </Link>
-              <Link href="/about" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/about" className="text-white/80 hover:text-white transition-colors text-sm font-medium">
                 About
               </Link>
               <Link href="/events" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
@@ -30,57 +30,52 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <main className="pt-16">
-        <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          {/* Background gradient */}
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/10 to-pink-600/20"></div>
-          
-          {/* Floating elements */}
-          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-          
-          <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
-            <div className="mb-8">
-              <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium mb-8">
-                <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 animate-pulse"></div>
-                Columbia University
+        {/* Hero Section */}
+        <div className="relative py-32">
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/5 to-pink-600/10"></div>
+          <div className="relative max-w-6xl mx-auto px-6 text-center">
+            <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium mb-8">
+              <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 animate-pulse"></div>
+              Columbia University
+            </div>
+            <h1 className="text-6xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
+              About Us
+            </h1>
+            <p className="text-xl text-white/70 max-w-4xl mx-auto leading-relaxed font-light">
+              Columbia Tech Consulting is a student-run organization dedicated to connecting Columbia University students with real-world technology consulting opportunities.
+            </p>
+          </div>
+        </div>
+
+        {/* Mission & Vision */}
+        <div className="py-32 relative">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
+                  <h2 className="text-3xl font-bold text-white mb-6 group-hover:text-blue-300 transition-colors">Our Mission</h2>
+                  <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
+                    To bridge the gap between academic learning and industry practice by providing Columbia students with hands-on consulting experience, professional development opportunities, and meaningful connections in the technology sector.
+                  </p>
+                </div>
               </div>
               
-              <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-none tracking-tight">
-                <span className="bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-                  Tech
-                </span>
-                <br />
-                <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Consulting
-                </span>
-              </h1>
-              
-              <p className="text-xl md:text-2xl text-white/70 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
-                Where Columbia students build the future of technology consulting
-              </p>
-            </div>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/contact"
-                className="group relative px-8 py-4 bg-white text-black rounded-full text-lg font-medium hover:bg-white/90 transition-all duration-300 hover:scale-105"
-              >
-                <span className="relative z-10">Join Us</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-              </Link>
-              <Link
-                href="/events"
-                className="px-8 py-4 border border-white/30 text-white rounded-full text-lg font-medium hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"
-              >
-                View Events
-              </Link>
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
+                  <h2 className="text-3xl font-bold text-white mb-6 group-hover:text-purple-300 transition-colors">Our Vision</h2>
+                  <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
+                    To become the premier student organization at Columbia University for technology consulting, creating a community where students can develop practical skills, work on impactful projects, and launch successful careers in tech.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Features Section */}
+        {/* What We Do */}
         <div className="py-32 relative">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-20">
@@ -88,7 +83,7 @@ export default function Home() {
                 What We Do
               </h2>
               <p className="text-xl text-white/60 max-w-3xl mx-auto font-light">
-                Empowering the next generation of tech consultants through real-world experience
+                Empowering students through comprehensive consulting education and real-world experience
               </p>
             </div>
             
@@ -98,12 +93,12 @@ export default function Home() {
                 <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
                   <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-300 transition-colors">Real Projects</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-300 transition-colors">Consulting Projects</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Work on actual consulting projects with real companies and startups, gaining hands-on experience in the tech industry.
+                    Partner with startups, established companies, adn Columbia clubs to solve real business and software challenges.
                   </p>
                 </div>
               </div>
@@ -113,12 +108,12 @@ export default function Home() {
                 <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283-.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-300 transition-colors">Networking</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-300 transition-colors">Workshops & Training</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Connect with industry professionals, Columbia alumni, and fellow students passionate about technology and consulting.
+                    Regular workshops on consulting methodologies, technical skills, and industry best practices.
                   </p>
                 </div>
               </div>
@@ -128,13 +123,51 @@ export default function Home() {
                 <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
                   <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283-.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-pink-300 transition-colors">Skill Development</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-pink-300 transition-colors">Networking Events</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Learn essential consulting skills including problem-solving, client communication, and technical analysis.
+                    Connect with industry professionals, alumni, and fellow students through networking events and speaker series.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Leadership Team */}
+        <div className="py-32 relative">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="text-center mb-20">
+              <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
+                Leadership Team
+              </h2>
+              <p className="text-xl text-white/60 max-w-3xl mx-auto font-light">
+                Meet the students leading Columbia Tech Consulting
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 text-center hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
+                  <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-2xl font-bold text-white">EZ</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">Ethan Zhang</h3>
+                  <p className="text-white/60 text-sm">Computer Science '28</p>
+                </div>
+              </div>
+              
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 text-center hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
+                  <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-2xl font-bold text-white">JS</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">Kushaan Vardhan</h3>
+                  <p className="text-white/60 text-sm">Computer Science '28</p>
                 </div>
               </div>
             </div>
@@ -148,26 +181,18 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-3xl blur-3xl"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-16">
                 <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-                  Ready to Build the Future?
+                  Ready to Join Us?
                 </h2>
                 <p className="text-xl text-white/70 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-                  Join Columbia's premier tech consulting organization and start making an impact in the industry today.
+                  Become part of our community and start making an impact in the tech industry today.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <Link
-                    href="/contact"
-                    className="group relative px-10 py-5 bg-white text-black rounded-full text-lg font-semibold hover:bg-white/90 transition-all duration-300 hover:scale-105"
-                  >
-                    <span className="relative z-10">Join Us</span>
-                    <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                  </Link>
-                  <Link
-                    href="/events"
-                    className="px-10 py-5 border border-white/30 text-white rounded-full text-lg font-semibold hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"
-                  >
-                    View Events
-                  </Link>
-                </div>
+                <Link
+                  href="/contact"
+                  className="group relative px-10 py-5 bg-white text-black rounded-full text-lg font-semibold hover:bg-white/90 transition-all duration-300 hover:scale-105"
+                >
+                  <span className="relative z-10">Join Our Club</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </Link>
               </div>
             </div>
           </div>
@@ -181,7 +206,7 @@ export default function Home() {
             <div className="md:col-span-2">
               <h3 className="text-2xl font-bold text-white mb-4">Columbia Tech Consulting</h3>
               <p className="text-white/60 leading-relaxed mb-6 max-w-md">
-                Empowering Columbia students to bridge the gap between academia and industry through technology consulting.
+                Connect with us
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -215,7 +240,7 @@ export default function Home() {
               <h4 className="text-lg font-semibold text-white mb-6">Contact</h4>
               <div className="space-y-4 text-white/60">
                 <p>columbiatechconsulting@columbia.edu</p>
-                <p>Mudd Hall, Room 501</p>
+                <p>PLACEHOLDER Room</p>
                 <p>Columbia University</p>
               </div>
             </div>
