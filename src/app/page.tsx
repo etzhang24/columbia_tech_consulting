@@ -43,13 +43,12 @@ export default function Home() {
           
           <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
             <div className="mb-8">
-              <div className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-blue-200 rounded-full text-sm font-medium mb-8 text-blue-800">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 animate-pulse"></div>
-                Columbia University
-              </div>
-              
               <div className="mb-8">
                 <img src="/crown-logo.png" alt="Columbia Crown" className="w-24 h-24 mx-auto mb-6" />
+              </div>
+              
+              <div className="text-center mb-8">
+                <p className="text-2xl md:text-3xl font-semibold text-blue-900">Columbia University</p>
               </div>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-none tracking-tight">
                 <span className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 bg-clip-text text-transparent">
