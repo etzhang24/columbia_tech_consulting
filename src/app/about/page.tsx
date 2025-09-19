@@ -156,7 +156,7 @@ export default function About() {
                     <span className="text-2xl font-bold text-white">EZ</span>
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">Ethan Zhang</h3>
-                  <p className="text-white/60 text-sm">Computer Science '28</p>
+                  <p className="text-white/60 text-sm">Computer Science &apos;28</p>
                 </div>
               </div>
               
@@ -167,7 +167,7 @@ export default function About() {
                     <span className="text-2xl font-bold text-white">JS</span>
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">Kushaan Vardhan</h3>
-                  <p className="text-white/60 text-sm">Computer Science '28</p>
+                  <p className="text-white/60 text-sm">Computer Science &apos;28</p>
                 </div>
               </div>
             </div>

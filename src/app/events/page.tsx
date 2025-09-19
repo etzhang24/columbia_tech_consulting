@@ -1,9 +1,8 @@
 import Link from "next/link";
 
 export default function Events() {
-  const upcomingEvents = [];
-
-  const pastEvents = [];
+  // const upcomingEvents = [];
+  // const pastEvents = [];
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -60,7 +59,7 @@ export default function Events() {
                 Upcoming Events
               </h2>
               <p className="text-xl text-white/60 max-w-3xl mx-auto font-light">
-                Don't miss out on these exciting opportunities to learn and network
+                Don&apos;t miss out on these exciting opportunities to learn and network
               </p>
             </div>
             
@@ -74,7 +73,7 @@ export default function Events() {
                 </div>
                 <h3 className="text-3xl font-bold text-white mb-4">No Events Yet</h3>
                 <p className="text-white/70 mb-8 max-w-2xl mx-auto leading-relaxed">
-                  We're just getting started! Check back soon for exciting workshops, networking events, and consulting projects.
+                  We&apos;re just getting started! Check back soon for exciting workshops, networking events, and consulting projects.
                 </p>
                 <Link
                   href="/contact"
@@ -96,7 +95,7 @@ export default function Events() {
                 Past Events
               </h2>
               <p className="text-xl text-white/60 max-w-3xl mx-auto font-light">
-                Check out what we've accomplished together
+                Check out what we&apos;ve accomplished together
               </p>
             </div>
             
@@ -110,7 +109,7 @@ export default function Events() {
                 </div>
                 <h3 className="text-3xl font-bold text-white mb-4">No Past Events Yet</h3>
                 <p className="text-white/70 mb-8 max-w-2xl mx-auto leading-relaxed">
-                  We're a new club starting in 2025! Our first events and activities will be announced soon.
+                  We&apos;re a new club starting in 2025! Our first events and activities will be announced soon.
                 </p>
               </div>
             </div>
@@ -139,7 +138,7 @@ export default function Events() {
                 </div>
                 <h3 className="text-3xl font-bold text-white mb-4">Full Calendar Coming Soon</h3>
                 <p className="text-white/70 mb-8 max-w-2xl mx-auto leading-relaxed">
-                  We're working on integrating a full calendar view. For now, check our upcoming events above!
+                  We&apos;re working on integrating a full calendar view. For now, check our upcoming events above!
                 </p>
                 <Link
                   href="/contact"
@@ -160,7 +159,7 @@ export default function Events() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-3xl blur-3xl"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-16">
                 <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-                  Don't Miss Out!
+                  Don&apos;t Miss Out!
                 </h2>
                 <p className="text-xl text-white/70 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
                   Join our club to get early access to events and exclusive networking opportunities.

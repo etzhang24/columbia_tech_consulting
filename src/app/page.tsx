@@ -151,7 +151,7 @@ export default function Home() {
                   Ready to Build the Future?
                 </h2>
                 <p className="text-xl text-white/70 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-                  Join Columbia's premier tech consulting organization and start making an impact in the industry today.
+                  Join Columbia&apos;s premier tech consulting organization and start making an impact in the industry today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
                   <Link
