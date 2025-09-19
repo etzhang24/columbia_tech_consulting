@@ -48,6 +48,9 @@ export default function Home() {
                 Columbia University
               </div>
               
+              <div className="mb-8">
+                <img src="/crown-logo.png" alt="Columbia Crown" className="w-24 h-24 mx-auto mb-6" />
+              </div>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-none tracking-tight">
                 <span className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 bg-clip-text text-transparent">
                   Tech
