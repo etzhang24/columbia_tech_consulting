@@ -2,27 +2,27 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 text-gray-900">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
+      <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-blue-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-xl font-semibold text-white hover:text-gray-300 transition-colors">
+              <Link href="/" className="text-xl font-semibold text-blue-900 hover:text-blue-700 transition-colors">
                 Columbia Tech Consulting
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/" className="text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                 Home
               </Link>
-              <Link href="/about" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/about" className="text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                 About
               </Link>
-              <Link href="/events" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/events" className="text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                 Events
               </Link>
-              <Link href="/contact" className="text-white/80 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/contact" className="text-blue-800 hover:text-blue-600 transition-colors text-sm font-medium">
                 Join
               </Link>
             </div>
@@ -33,16 +33,16 @@ export default function Contact() {
       <main className="pt-16">
         {/* Hero Section */}
         <div className="relative py-32">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/5 to-pink-600/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 via-blue-50/30 to-blue-200/50"></div>
           <div className="relative max-w-6xl mx-auto px-6 text-center">
-            <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium mb-8">
-              <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 animate-pulse"></div>
+            <div className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-blue-200 rounded-full text-sm font-medium mb-8 text-blue-800">
+              <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 animate-pulse"></div>
               Columbia University
             </div>
-            <h1 className="text-6xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
+            <h1 className="text-6xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 bg-clip-text text-transparent">
               Join Our Community
             </h1>
-            <p className="text-xl text-white/70 max-w-4xl mx-auto leading-relaxed font-light">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-light">
               Ready to start your journey in tech consulting? Join Columbia Tech Consulting and become part of our growing community.
             </p>
           </div>
@@ -54,18 +54,18 @@ export default function Contact() {
               {/* Join Form */}
               <div className="group relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500">
-                  <h2 className="text-3xl font-bold text-white mb-8 group-hover:text-blue-300 transition-colors">Join Our Club</h2>
+                <div className="relative bg-white/80 backdrop-blur-sm border border-blue-200 rounded-3xl p-8 hover:bg-white transition-all duration-500 shadow-lg">
+                  <h2 className="text-3xl font-bold text-blue-900 mb-8 group-hover:text-blue-700 transition-colors">Join Our Club</h2>
                   <form className="space-y-6">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-white/80 mb-3">
+                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-3">
                         Full Name
                       </label>
                       <input
                         type="text"
                         id="name"
                         name="name"
-                        className="w-full px-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 backdrop-blur-sm"
+                        className="w-full px-4 py-4 bg-white border border-gray-300 rounded-xl text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
                         placeholder="Enter your full name"
                       />
                     </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                         type="email"
                         id="email"
                         name="email"
-                        className="w-full px-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 backdrop-blur-sm"
+                        className="w-full px-4 py-4 bg-white border border-gray-300 rounded-xl text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
                         placeholder="your.name@columbia.edu"
                       />
                     </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                         type="text"
                         id="major"
                         name="major"
-                        className="w-full px-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 backdrop-blur-sm"
+                        className="w-full px-4 py-4 bg-white border border-gray-300 rounded-xl text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
                         placeholder="e.g., Computer Science, Software Engineering, Information Systems"
                       />
                     </div>
