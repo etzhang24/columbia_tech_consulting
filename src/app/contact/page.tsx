@@ -280,12 +280,12 @@ export default function Contact() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 py-16">
+      <footer className="border-t border-blue-200 py-16 bg-white/50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="md:col-span-2">
-              <h3 className="text-2xl font-bold text-white mb-4">Columbia Tech Consulting</h3>
-              <p className="text-white/60 leading-relaxed mb-6 max-w-md">
+              <h3 className="text-2xl font-bold text-blue-900 mb-4">Columbia Tech Consulting</h3>
+              <p className="text-gray-600 leading-relaxed mb-6 max-w-md">
                 Empowering Columbia students to bridge the gap between academia and industry through technology consulting.
               </p>
               <div className="flex space-x-4">
