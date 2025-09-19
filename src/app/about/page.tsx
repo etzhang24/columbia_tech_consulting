@@ -2,27 +2,27 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 text-gray-900">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
+      <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-blue-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-xl font-semibold text-white hover:text-gray-300 transition-colors">
+              <Link href="/" className="text-xl font-semibold text-blue-900 hover:text-blue-700 transition-colors">
                 Columbia Tech Consulting
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/" className="text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                 Home
               </Link>
-              <Link href="/about" className="text-white/80 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/about" className="text-blue-800 hover:text-blue-600 transition-colors text-sm font-medium">
                 About
               </Link>
-              <Link href="/events" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/events" className="text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                 Events
               </Link>
-              <Link href="/contact" className="text-white/60 hover:text-white transition-colors text-sm font-medium">
+              <Link href="/contact" className="text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                 Join
               </Link>
             </div>
