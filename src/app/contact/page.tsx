@@ -8,7 +8,8 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-xl font-semibold text-blue-900 hover:text-blue-700 transition-colors">
+              <Link href="/" className="flex items-center text-xl font-semibold text-blue-900 hover:text-blue-700 transition-colors">
+                <img src="/crown-logo.svg" alt="Crown Logo" className="w-8 h-8 mr-3" />
                 Columbia Tech Consulting
               </Link>
             </div>

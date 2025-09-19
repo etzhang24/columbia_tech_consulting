@@ -8,7 +8,8 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-xl font-semibold text-blue-900 hover:text-blue-700 transition-colors">
+              <Link href="/" className="flex items-center text-xl font-semibold text-blue-900 hover:text-blue-700 transition-colors">
+                <img src="/crown-logo.svg" alt="Crown Logo" className="w-8 h-8 mr-3" />
                 Columbia Tech Consulting
               </Link>
             </div>
@@ -164,7 +165,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
                 <div className="relative bg-white/80 backdrop-blur-sm border border-blue-200 rounded-3xl p-8 text-center hover:bg-white transition-all duration-500 group-hover:scale-105 shadow-lg">
                   <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-2xl font-bold text-white">JS</span>
+                    <span className="text-2xl font-bold text-white">KV</span>
                   </div>
                   <h3 className="text-2xl font-bold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors">Kushaan Vardhan</h3>
                   <p className="text-gray-600 text-sm">Computer Science &apos;28</p>
