@@ -71,7 +71,7 @@ export default function Contact() {
                     </div>
                     
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-3">
+                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-3">
                         Columbia Email
                       </label>
                       <input
@@ -84,25 +84,25 @@ export default function Contact() {
                     </div>
                     
                     <div>
-                      <label htmlFor="year" className="block text-sm font-medium text-white/80 mb-3">
+                      <label htmlFor="year" className="block text-sm font-medium text-gray-700 mb-3">
                         Academic Year
                       </label>
                       <select
                         id="year"
                         name="year"
-                        className="w-full px-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 backdrop-blur-sm"
+                        className="w-full px-4 py-4 bg-white border border-gray-300 rounded-xl text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"
                       >
-                        <option value="" className="bg-gray-800">Select your year</option>
-                        <option value="freshman" className="bg-gray-800">Freshman</option>
-                        <option value="sophomore" className="bg-gray-800">Sophomore</option>
-                        <option value="junior" className="bg-gray-800">Junior</option>
-                        <option value="senior" className="bg-gray-800">Senior</option>
-                        <option value="graduate" className="bg-gray-800">Graduate Student</option>
+                        <option value="">Select your year</option>
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                        <option value="graduate">Graduate Student</option>
                       </select>
                     </div>
                     
                     <div>
-                      <label htmlFor="major" className="block text-sm font-medium text-white/80 mb-3">
+                      <label htmlFor="major" className="block text-sm font-medium text-gray-700 mb-3">
                         Major/Program
                       </label>
                       <input
@@ -115,20 +115,20 @@ export default function Contact() {
                     </div>
                     
                     <div>
-                      <label htmlFor="experience" className="block text-sm font-medium text-white/80 mb-3">
+                      <label htmlFor="experience" className="block text-sm font-medium text-gray-700 mb-3">
                         Relevant Experience
                       </label>
                       <textarea
                         id="experience"
                         name="experience"
                         rows={4}
-                        className="w-full px-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 backdrop-blur-sm resize-none"
+                        className="w-full px-4 py-4 bg-white border border-gray-300 rounded-xl text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 resize-none"
                         placeholder="Tell us about any programming experience, projects you've built, or software development skills..."
                       />
                     </div>
                     
                     <div>
-                      <label className="block text-sm font-medium text-white/80 mb-4">
+                      <label className="block text-sm font-medium text-gray-700 mb-4">
                         Areas of Interest
                       </label>
                       <div className="grid grid-cols-2 gap-3">
@@ -140,7 +140,7 @@ export default function Contact() {
                               value={interest}
                               className="mr-3 rounded border-white/30 text-blue-500 focus:ring-blue-500 bg-white/10"
                             />
-                            <span className="text-sm text-white/70 group-hover:text-white transition-colors">{interest}</span>
+                            <span className="text-sm text-gray-600 group-hover:text-gray-800 transition-colors">{interest}</span>
                           </label>
                         ))}
                       </div>
@@ -157,8 +157,8 @@ export default function Contact() {
               <div className="space-y-8">
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                  <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
-                    <h2 className="text-3xl font-bold text-white mb-8 group-hover:text-purple-300 transition-colors">Get in Touch</h2>
+                  <div className="relative bg-white/80 backdrop-blur-sm border border-blue-200 rounded-3xl p-8 hover:bg-white transition-all duration-500 group-hover:scale-105 shadow-lg">
+                    <h2 className="text-3xl font-bold text-blue-900 mb-8 group-hover:text-blue-700 transition-colors">Get in Touch</h2>
                     <div className="space-y-6">
                       <div className="flex items-center">
                         <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
@@ -167,8 +167,8 @@ export default function Contact() {
                           </svg>
                         </div>
                         <div>
-                          <h3 className="font-semibold text-white text-lg">Email</h3>
-                          <p className="text-white/70">ez2450@columbia.edu</p>
+                          <h3 className="font-semibold text-blue-900 text-lg">Email</h3>
+                          <p className="text-gray-600">ez2450@columbia.edu</p>
                         </div>
                       </div>
                       
@@ -180,8 +180,8 @@ export default function Contact() {
                           </svg>
                         </div>
                         <div>
-                          <h3 className="font-semibold text-white text-lg">Location</h3>
-                          <p className="text-white/70">Room TBD<br />Columbia University</p>
+                          <h3 className="font-semibold text-blue-900 text-lg">Location</h3>
+                          <p className="text-gray-600">Room TBD<br />Columbia University</p>
                         </div>
                       </div>
                       
@@ -192,8 +192,8 @@ export default function Contact() {
                           </svg>
                         </div>
                         <div>
-                          <h3 className="font-semibold text-white text-lg">Meeting Times</h3>
-                          <p className="text-white/70">TBD - Check back soon!</p>
+                          <h3 className="font-semibold text-blue-900 text-lg">Meeting Times</h3>
+                          <p className="text-gray-600">TBD - Check back soon!</p>
                         </div>
                       </div>
                     </div>
@@ -202,10 +202,10 @@ export default function Contact() {
 
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-pink-500/20 to-blue-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                  <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
-                    <h2 className="text-3xl font-bold text-white mb-8 group-hover:text-pink-300 transition-colors">Follow Us</h2>
+                  <div className="relative bg-white/80 backdrop-blur-sm border border-blue-200 rounded-3xl p-8 hover:bg-white transition-all duration-500 group-hover:scale-105 shadow-lg">
+                    <h2 className="text-3xl font-bold text-blue-900 mb-8 group-hover:text-blue-700 transition-colors">Follow Us</h2>
                     <div className="text-center">
-                      <p className="text-white/60 text-sm">Social media coming soon!</p>
+                      <p className="text-gray-600 text-sm">Social media coming soon!</p>
                     </div>
                   </div>
                 </div>
@@ -218,10 +218,10 @@ export default function Contact() {
         <div className="py-32 relative">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-20">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
+              <h2 className="text-5xl md:text-6xl font-bold mb-6 text-blue-900">
                 Frequently Asked Questions
               </h2>
-              <p className="text-xl text-white/60 max-w-3xl mx-auto font-light">
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
                 Everything you need to know about joining Columbia Tech Consulting
               </p>
             </div>
@@ -247,9 +247,9 @@ export default function Contact() {
               ].map((faq, index) => (
                 <div key={index} className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-gray-500/10 to-blue-500/10 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                  <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
-                    <h3 className="text-xl font-semibold text-white mb-4 group-hover:text-blue-300 transition-colors">{faq.question}</h3>
-                    <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">{faq.answer}</p>
+                  <div className="relative bg-white/80 backdrop-blur-sm border border-blue-200 rounded-3xl p-8 hover:bg-white transition-all duration-500 group-hover:scale-105 shadow-lg">
+                    <h3 className="text-xl font-semibold text-blue-900 mb-4 group-hover:text-blue-700 transition-colors">{faq.question}</h3>
+                    <p className="text-gray-600 leading-relaxed group-hover:text-gray-800 transition-colors">{faq.answer}</p>
                   </div>
                 </div>
               ))}
@@ -262,14 +262,14 @@ export default function Contact() {
           <div className="max-w-6xl mx-auto px-6 text-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-3xl blur-3xl"></div>
-              <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-16">
-                <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
+              <div className="relative bg-white/90 backdrop-blur-sm border border-blue-200 rounded-3xl p-16 shadow-lg">
+                <h2 className="text-5xl md:text-6xl font-bold mb-8 text-blue-900">
                   Ready to Get Started?
                 </h2>
-                <p className="text-xl text-white/70 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+                <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
                   Join our community of passionate students and start building your consulting skills today.
                 </p>
-                <button className="group relative px-10 py-5 bg-white text-black rounded-full text-lg font-semibold hover:bg-white/90 transition-all duration-300 hover:scale-105">
+                <button className="group relative px-10 py-5 bg-blue-600 text-white rounded-full text-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:scale-105">
                   <span className="relative z-10">Submit Your Application</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 </button>

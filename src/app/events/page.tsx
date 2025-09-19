@@ -42,7 +42,7 @@ export default function Events() {
               <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 animate-pulse"></div>
               Columbia University
             </div>
-            <h1 className="text-6xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 bg-clip-text text-transparent">
+            <h1 className="text-6xl md:text-7xl font-bold mb-8 text-blue-900">
               Events & Activities
             </h1>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-light">
@@ -55,7 +55,7 @@ export default function Events() {
         <div className="py-32 relative">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-20">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-blue-700 bg-clip-text text-transparent">
+              <h2 className="text-5xl md:text-6xl font-bold mb-6 text-blue-900">
                 Upcoming Events
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
@@ -91,7 +91,7 @@ export default function Events() {
         <div className="py-32 relative">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-20">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-blue-700 bg-clip-text text-transparent">
+              <h2 className="text-5xl md:text-6xl font-bold mb-6 text-blue-900">
                 Past Events
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
@@ -120,7 +120,7 @@ export default function Events() {
         <div className="py-32 relative">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-20">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-blue-700 bg-clip-text text-transparent">
+              <h2 className="text-5xl md:text-6xl font-bold mb-6 text-blue-900">
                 Event Calendar
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
@@ -158,7 +158,7 @@ export default function Events() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-3xl blur-3xl"></div>
               <div className="relative bg-white/90 backdrop-blur-sm border border-blue-200 rounded-3xl p-16 shadow-lg">
-                <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-600 bg-clip-text text-transparent">
+                <h2 className="text-5xl md:text-6xl font-bold mb-8 text-blue-900">
                   Don&apos;t Miss Out!
                 </h2>
                 <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
