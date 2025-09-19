@@ -58,7 +58,7 @@ export default function Home() {
               </h1>
               
               <p className="text-xl md:text-2xl text-white/70 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
-                Where Columbia students build the future of technology consulting
+                Where Columbia students build custom software that helps businesses run more smoothly
               </p>
             </div>
             
@@ -88,7 +88,7 @@ export default function Home() {
                 What We Do
               </h2>
               <p className="text-xl text-white/60 max-w-3xl mx-auto font-light">
-                Empowering the next generation of tech consultants through real-world experience
+                Building custom software solutions and automation tools for real businesses
               </p>
             </div>
             
@@ -101,9 +101,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-300 transition-colors">Real Projects</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-300 transition-colors">Custom Software</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Work on actual consulting projects with real companies and startups, gaining hands-on experience in the tech industry.
+                    Build custom software solutions for real businesses, from automation tools to web applications that solve actual problems.
                   </p>
                 </div>
               </div>
@@ -116,9 +116,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283-.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-300 transition-colors">Networking</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-300 transition-colors">Real Experience</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Connect with industry professionals, Columbia alumni, and fellow students passionate about technology and consulting.
+                    Work directly with business owners and tech professionals to understand real problems and build practical solutions.
                   </p>
                 </div>
               </div>
@@ -131,9 +131,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-pink-300 transition-colors">Skill Development</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-pink-300 transition-colors">Technical Skills</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Learn essential consulting skills including problem-solving, client communication, and technical analysis.
+                    Develop practical software development skills, learn modern technologies, and gain experience with real business requirements.
                   </p>
                 </div>
               </div>
@@ -214,15 +214,15 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold text-white mb-6">Contact</h4>
               <div className="space-y-4 text-white/60">
-                <p>columbiatechconsulting@columbia.edu</p>
-                <p>Mudd Hall, Room 501</p>
+                <p>ez2450@columbia.edu</p>
+                <p>Room TBD</p>
                 <p>Columbia University</p>
               </div>
             </div>
           </div>
           
           <div className="border-t border-white/10 pt-8 text-center">
-            <p className="text-white/40 text-sm">© 2024 Columbia Tech Consulting. All rights reserved.</p>
+            <p className="text-white/40 text-sm">© 2025 Columbia Tech Consulting. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -57,7 +57,7 @@ export default function About() {
                 <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 group-hover:scale-105">
                   <h2 className="text-3xl font-bold text-white mb-6 group-hover:text-blue-300 transition-colors">Our Mission</h2>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    To bridge the gap between academic learning and industry practice by providing Columbia students with hands-on consulting experience, professional development opportunities, and meaningful connections in the technology sector.
+                    Columbia Tech Consulting builds custom software that helps businesses run more smoothly. Our team of Columbia students partners directly with companies to automate routine work and create simple, effective tools that make daily operations easier. We give businesses a practical tech boost while giving students the chance to tackle real projects that matter.
                   </p>
                 </div>
               </div>
@@ -96,9 +96,9 @@ export default function About() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-300 transition-colors">Consulting Projects</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-300 transition-colors">Custom Software Development</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Partner with startups, established companies, adn Columbia clubs to solve real business and software challenges.
+                    Build custom software solutions for businesses, from automation tools to web applications that streamline daily operations and improve efficiency.
                   </p>
                 </div>
               </div>
@@ -111,9 +111,9 @@ export default function About() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-300 transition-colors">Workshops & Training</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-purple-300 transition-colors">Technical Workshops</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Regular workshops on consulting methodologies, technical skills, and industry best practices.
+                    Hands-on workshops covering software development, automation tools, and modern web technologies to prepare students for real-world projects.
                   </p>
                 </div>
               </div>
@@ -126,9 +126,9 @@ export default function About() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283-.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-pink-300 transition-colors">Networking Events</h3>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-pink-300 transition-colors">Industry Connections</h3>
                   <p className="text-white/70 leading-relaxed group-hover:text-white/90 transition-colors">
-                    Connect with industry professionals, alumni, and fellow students through networking events and speaker series.
+                    Connect with tech professionals, startup founders, and Columbia alumni to learn about real-world software development and business challenges.
                   </p>
                 </div>
               </div>
@@ -239,15 +239,15 @@ export default function About() {
             <div>
               <h4 className="text-lg font-semibold text-white mb-6">Contact</h4>
               <div className="space-y-4 text-white/60">
-                <p>columbiatechconsulting@columbia.edu</p>
-                <p>PLACEHOLDER Room</p>
+                <p>ez2450@columbia.edu</p>
+                <p>Room TBD</p>
                 <p>Columbia University</p>
               </div>
             </div>
           </div>
           
           <div className="border-t border-white/10 pt-8 text-center">
-            <p className="text-white/40 text-sm">© 2024 Columbia Tech Consulting. All rights reserved.</p>
+            <p className="text-white/40 text-sm">© 2025 Columbia Tech Consulting. All rights reserved.</p>
           </div>
         </div>
       </footer>
